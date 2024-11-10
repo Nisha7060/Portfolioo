@@ -1,0 +1,44 @@
+.top-weapon-container {
+    padding: 20px;
+    background-color: #1f1f2e;
+    border-radius: 8px;
+    color: white;
+  }
+  
+  .weapon-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .weapon-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #3a3a4a;
+  }
+  
+  .weapon-item:last-child {
+    border-bottom: none;
+  }
+  
+  .weapon-name {
+    font-weight: bold;
+    color: #ffd700;
+  }
+  
+  .weapon-details span {
+    margin-right: 15px;
+  }
+  
+  .kills {
+    color: #00ff00;
+  }
+  
+  .headshot-percentage {
+    color: #ff69b4;
+  }
+  
+  .accuracy {
+    color: #ff5733;
+  }
+  

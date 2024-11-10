@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  background-color: #0f0f0f;
+  color: #fff;
+}
+
+.portfolio {
+  text-align: center;
+  padding: 0;
+}
+
+/* Introduction Section */
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  &__left {
+    max-width: 600px;
+    text-align: left;
+  }
+
+  &__role {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    opacity: 0.7;
+  }
+
+  h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+
+    span {
+      color: #06c044;
+    }
+  }
+
+  &__description {
+    font-size: 18px;
+    margin-top: 20px;
+    opacity: 0.8;
+  }
+
+  .cta {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+    &__download {
+      background-color: #06c044;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 30px;
+      color: black;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s;
+
+      &:hover {
+        background-color: #06c044;
+      }
+    }
+
+    &__socials {
+      display: flex;
+      gap: 15px;
+      margin-left: 30px;
+
+      i {
+        font-size: 24px;
+        cursor: pointer;
+        color: #fff;
+        transition: color 0.3s;
+
+        &:hover {
+          color: #06c044;
+        }
+      }
+    }
+  }
+
+  /* Profile Image Section */
+  &__right {
+    position: relative;
+    display: inline-block;
+
+    .image-container {
+      display: inline-block;
+      position: relative;
+
+      .circle-round{
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        // back ground-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%2306c044' stroke-width='8' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+        background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='green' stroke-width='8' stroke-dasharray='8%2c 14' stroke-dashoffset='0' stroke-linecap='circle'/%3e%3c/svg%3e");
+        border-radius: 50%;
+        animation: spin 4s linear infinite;
+
+      }
+      .circle-border {
+        position: relative;
+        width: 250px;
+        height: 250px;      
+
+        img.profile-img {
+          width: 85%;
+          height: 98%;
+          border-radius: 50%;
+          object-fit: cover; /* Ensures the image covers the container */
+          object-position: top; /* Position the face in the image (you can adjust 'top', 'center', etc.) */
+        }
+      }
+    }
+  }
+}
+
+ 
+
+/* Stats Section */
+.stats {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  &__item {
+    text-align: center;
+
+    h2 {
+      font-size: 48px;
+      color: #fff;
+    }
+
+    p {
+      font-size: 16px;
+      color: #fff;
+      opacity: 0.7;
+    }
+  }
+}
+
+/* Spinning animation for the border */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1::after {
+  content: "|";
+  font-weight: bold;
+  margin-left: 5px;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
