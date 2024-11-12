@@ -4,15 +4,15 @@ export const skillsData = [
       data: [
         {
           skillName: "HTML , React js",
-          percentage: "90",
+          percentage: "70",
         },
         {
           skillName: "CSS ,bootstrap , JQuery ",
-          percentage: "50",
+          percentage: "40",
         },
         {
           skillName: "JAVASCRIPT , AJAX  ",
-          percentage: "80",
+          percentage: "60",
         },
       ],
     },
@@ -24,12 +24,12 @@ export const skillsData = [
           percentage: "70",
         },
         {
-          skillName: "JAVA , PYTHON (Basic + Advanced ) , NumPy ,Pandas",
-          percentage: "65",
+          skillName: "JAVA , PYTHON (Basic) , NumPy ,Pandas",
+          percentage: "55",
         },
         {
-          skillName: "Machine Learning , Deep Learning",
-          percentage: "75",
+          skillName: "Machine Learning",
+          percentage: "40",
         },
       ],
     },
@@ -38,14 +38,14 @@ export const skillsData = [
       data: [
         {
           skillName: "Django",
-          percentage: "70",
+          percentage: "60",
         },
+        // {
+        //   skillName: "Laravel , PHP ",
+        //   percentage: "65",
+        // },
         {
-          skillName: "Laravel , PHP ",
-          percentage: "65",
-        },
-        {
-          skillName: "NextJs , MERN",
+          skillName: " MERN",
           percentage: "75",
         },
       ],
@@ -55,16 +55,16 @@ export const skillsData = [
       data: [
         {
           skillName: "Kali linux",
-          percentage: "70",
+          percentage: "30",
         },
-        {
-          skillName: "Nmap",
-          percentage: "65",
-        },
-        {
-          skillName: "Hydra",
-          percentage: "75",
-        },
+        // {
+        //   skillName: "Nmap",
+        //   percentage: "65",
+        // },
+        // {
+        //   skillName: "Hydra",
+        //   percentage: "75",
+        // },
       ],
     },
     {
@@ -74,14 +74,14 @@ export const skillsData = [
           skillName: "SQL , MONGO DB",
           percentage: "70",
         },
-        {
-          skillName: "Redis , Elastic",
-          percentage: "80",
-        },
-        {
-          skillName: "Kafka",
-          percentage: "75",
-        },
+        // {
+        //   skillName: "Redis , Elastic",
+        //   percentage: "80",
+        // },
+        // {
+        //   skillName: "Kafka",
+        //   percentage: "75",
+        // },
       ],
     },
   ];

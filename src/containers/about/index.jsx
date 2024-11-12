@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "./styles.scss"; // Assuming we use SCSS for styling
-import Profileimage from "./ashi.png";
+import Profileimage from "./Nisha.jpg";
 import { ReactTyped }  from 'react-typed'; // Correctly import 'Typed' from 'react-typed'
 
 const About = () => {
@@ -19,12 +19,12 @@ const About = () => {
             {typedComplete ? (
               <span
                 dangerouslySetInnerHTML={{
-                  __html: 'Hello, I’m <span style="color: white;">Ashish Kumar</span>',
+                  __html: 'Hello, I’m <span style="color: white;">Nisha Yadav</span>',
                 }}
               />
             ) : (
               <ReactTyped
-                strings={["Hello, I’m Ashish Kumar"]}
+                strings={["Hello, I’m Nisha Yadav"]}
                 typeSpeed={60}
                 backSpeed={30}
                 loop={false}
@@ -43,7 +43,7 @@ const About = () => {
            
             <button className="cta__download">
               <a
-                href="https://www.canva.com/design/DAF7w5gjTv8/j_kx96PtIH-ksqWMzTTa0A/view?utm_content=DAF7w5gjTv8&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+                href="Nisha Yadav (2).pdf"
                 download
                 target="_blank"
                 rel="noopener noreferrer"
@@ -68,7 +68,7 @@ const About = () => {
             <div className="circle-border">
               <img
                 src={Profileimage}
-                alt="Ashish Kumar"
+                alt="Nisha Yadav"
                 className="profile-img"
               />
             </div>
@@ -79,19 +79,19 @@ const About = () => {
       {/* Stats Section */}
       <section className="stats">
         <div className="stats__item">
-          <h2>1+</h2>
+          <h2>Fresher</h2> 
           <p>Years of experience</p>
         </div>
         <div className="stats__item">
-          <h2>10</h2>
+          <h2>7</h2>
           <p>Projects completed</p>
         </div>
         <div className="stats__item">
-          <h2>8</h2>
+          <h2>5</h2>
           <p>Technologies mastered</p>
         </div>
         <div className="stats__item">
-          <h2>200</h2>
+          <h2>2</h2>
           <p>Code commits</p>
         </div>
       </section>

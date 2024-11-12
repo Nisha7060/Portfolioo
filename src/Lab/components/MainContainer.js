@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-undef
 const MainContainer = styled.div`
   display: grid;
   grid-template-columns: 2fr 1fr;
