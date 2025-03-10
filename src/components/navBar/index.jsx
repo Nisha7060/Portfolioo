@@ -24,10 +24,10 @@ const data = [
     label:"Project",
     to: "/portfolio",
   },
-  {
-    label: "My Lab",
-    to: "/lab",
-  },
+  // {
+  //   label: "My Lab",
+  //   to: "/lab",
+  // },
   {
     label: "CONTACT",
     to: "/contact",

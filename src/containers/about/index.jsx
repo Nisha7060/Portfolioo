@@ -39,18 +39,18 @@ const About = () => {
 
           {/* Call to Action */}
           <div className="cta">
-            {/* <button className="cta__download"><a href='https://www.canva.com/design/DAF7w5gjTv8/j_kx96PtIH-ksqWMzTTa0A/view?utm_content=DAF7w5gjTv8&utm_campaign=designshare&utm_medium=link&utm_source=editor' download>Download CV</a></button> */}
+            <button className="cta__download"><a href='https://www.canva.com/design/DAGhWtZ9ML8/b6ulh2efuGJAR2PZkZ66-g/view?utm_content=DAGhWtZ9ML8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h63aa5609b5' download>Download CV</a></button> 
            
-            <button className="cta__download">
-              <a
+            {/* <button className="cta__download">
+              {/* <a
                 href="Nisha Yadav (2).pdf"
                 download
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Download CV
-              </a>
-            </button>
+              </a> 
+            </button> */}
 
             <div className="cta__socials">
               <i className="fa fa-pinterest" aria-hidden="true"></i>

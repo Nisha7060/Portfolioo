@@ -10,7 +10,7 @@ import Portfolio from "./containers/portfolio";
 import Contact from "./containers/contact";
 import Navbar from "./components/navBar";
 import particles from "./utils.js/particles";
-import Lab from "./Lab";
+// import Lab from "./Lab";
 
 function App() {
   const location = useLocation();
@@ -41,7 +41,6 @@ function App() {
         <Route path="/resume" element={<Resume />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/lab" element={<Lab />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       </div>
