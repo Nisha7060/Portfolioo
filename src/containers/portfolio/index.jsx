@@ -16,20 +16,20 @@ const portfolioData = [
     image: ImageOne,
     link: "https://github.com/ashish739293/easyshoping.git",
   },
+  {
+    id: 3,
+    name: "Coin Flipping",
+    link: "https://coinfliping-game.vercel.app",
+    image: ImageTwo,
+  },
   // {
-  //   id: 3,
-  //   name: "Coin Flipping",
-  //   link: "https://coinfliping-game.vercel.app",
-  //   image: ImageTwo,
+  //   id: 2,
+  //   name: "Supplier Design",
+  //   image: ImageThree,
+  //   link: "",
   // },
   {
-    id: 2,
-    name: "Supplier Design",
-    image: ImageThree,
-    link: "",
-  },
-  {
-    id: 2,
+    id: 4,
     name: "Todo App",
     image: ImageFour,
 

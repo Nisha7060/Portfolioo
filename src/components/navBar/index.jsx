@@ -8,10 +8,10 @@ const data = [
     label: "HOME",
     to: "/",
   },
-  // {
-  //   label: "ABOUT ME",
-  //   to: "/about",
-  // },
+  {
+    label: "ABOUT ME",
+    to: "/AboutUs",
+  },
   {
     label: "SKILLS",
     to: "/skills",
