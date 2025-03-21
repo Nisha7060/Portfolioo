@@ -10,6 +10,15 @@ const About = () => {
     setTypedComplete(true);
   };
 
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = '/NishaResume.pdf'; // Path to your PDF in the public folder
+    link.download = 'Nisha_CV.pdf'; // Set the file name for download
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className="portfolio">
       <section className="intro">
@@ -39,7 +48,7 @@ const About = () => {
 
           {/* Call to Action */}
           <div className="cta">
-            <button className="cta__download"><a href='https://www.canva.com/design/DAGhWtZ9ML8/b6ulh2efuGJAR2PZkZ66-g/view?utm_content=DAGhWtZ9ML8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h63aa5609b5' download>Download CV</a></button> 
+            <button className="cta__download" onClick={handleDownload}>Download CV</button>
            
             {/* <button className="cta__download">
               {/* <a
